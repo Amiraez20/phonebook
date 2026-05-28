@@ -10,16 +10,10 @@ Ce projet a été réécrit pour éviter les ressemblances avec d'autres étudia
 
 ## Démonstrations (Vidéos)
 
-*Insérer ici les liens vers vos vidéos de test / démonstration :*
+https://github.com/user-attachments/assets/9bd96314-318b-41b1-ba3b-ff049136d37f
 
-### 1. Test du Chargement des Contacts
-> [Insérez votre lien vidéo ici]()
+<img width="1919" height="880" alt="Capture d&#39;écran 2026-05-28 171151" src="https://github.com/user-attachments/assets/5acbefd4-a9ce-4e26-9cc5-6712a157373b" />
 
-### 2. Test de la Synchronisation Serveur
-> [Insérez votre lien vidéo ici]()
-
-### 3. Test de la Recherche Distante
-> [Insérez votre lien vidéo ici]()
 
 ## Installation du Backend (XAMPP)
 1. Démarrer Apache et MySQL dans XAMPP.
