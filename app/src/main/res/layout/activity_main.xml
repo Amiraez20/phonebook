@@ -1,0 +1,41 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:orientation="vertical"
+    android:padding="16dp">
+
+    <Button
+        android:id="@+id/buttonFetchPhone"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:text="Charger depuis le téléphone" />
+
+    <Button
+        android:id="@+id/buttonUploadServer"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:text="Sauvegarder en ligne"
+        android:layout_marginTop="8dp" />
+
+    <EditText
+        android:id="@+id/inputSearchQuery"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:hint="Recherche (nom, numéro)"
+        android:layout_marginTop="12dp" />
+
+    <Button
+        android:id="@+id/buttonSearchRemote"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:text="Chercher sur le serveur"
+        android:layout_marginTop="8dp" />
+
+    <androidx.recyclerview.widget.RecyclerView
+        android:id="@+id/recyclerPersonsList"
+        android:layout_width="match_parent"
+        android:layout_height="0dp"
+        android:layout_weight="1"
+        android:layout_marginTop="12dp" />
+</LinearLayout>
